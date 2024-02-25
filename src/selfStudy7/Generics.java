@@ -1,7 +1,6 @@
 package selfStudy7;
 
 import java.util.Arrays;
-
 import static java.util.Collections.swap;
 
 public class Generics {
