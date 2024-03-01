@@ -4,7 +4,9 @@ public class PalindromeStr {
 
     public static void main(String[] args) {
 
-        boolean isPalindrome = palindrome("ermir");
+
+
+        boolean isPalindrome = palindrome(" ");
         System.out.println(isPalindrome);
 
     }
@@ -13,6 +15,7 @@ public class PalindromeStr {
 
 
     public static boolean palindrome(String str){
+        str = str.toLowerCase().replaceAll(" ", "");
  String reverse = "";
 
         for (int i=str.length()-1; i>=0; i--) {
