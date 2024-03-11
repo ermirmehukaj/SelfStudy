@@ -6,7 +6,7 @@ public class PalindromeStr {
 
 
 
-        boolean isPalindrome = palindrome(" ");
+        boolean isPalindrome = palindrome("ana");
         System.out.println(isPalindrome);
 
     }
