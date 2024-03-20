@@ -1,4 +1,4 @@
-package GroupPractice;
+package selfStudy7;
 
 public class LargerNumber {
 

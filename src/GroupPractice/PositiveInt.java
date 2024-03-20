@@ -11,8 +11,8 @@ public class PositiveInt {
     }
 
     public static int[] convertNumber(int num) {
-        int a = 490;
-        return Integer.toString(a)
+
+        return Integer.toString(num)
                 .chars()
                 .map(Character::getNumericValue)
                 .toArray();
