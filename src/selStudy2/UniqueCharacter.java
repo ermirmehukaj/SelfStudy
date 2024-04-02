@@ -4,7 +4,7 @@ public class UniqueCharacter {
 
     public static void main(String[] args) {
 
-        String str = "aabccdeef";
+        String str = "bcabc";
         String result = "";
 
 
