@@ -17,11 +17,10 @@ public class AtLeastTwoAnimals {
 
     public static Map<String,Integer> animals(List<String> theAnimals) {
         Map<String, Integer> map = new HashMap<>();
-
         for (String animals : theAnimals) {
             map.put(animals, map.getOrDefault(animals, 0) + 1);
         }
-return map;
+        return map;
     }
 
 
