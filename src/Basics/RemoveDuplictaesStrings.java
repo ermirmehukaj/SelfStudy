@@ -1,19 +1,22 @@
 package Basics;
 
 public class RemoveDuplictaesStrings {
-    public static void main(String[] args) {
 
+
+    public static void main(String[] args) {
 
         String str = "ABCABCABC";
 
-        String str1 = "";
+        String result = "";
+
+
         for (int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);
-            if(str1.contains(ch + ""))
+            if(result.contains(ch  +"")){
                 continue;
-            str1 += ch;
+            }
+            result+=ch;
         }
-
-        System.out.println(str1);
+        System.out.println(result);
     }
 }
