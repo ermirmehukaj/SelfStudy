@@ -5,7 +5,7 @@ import java.util.stream.Stream;
 public class ShortestWord {
 
     public static void main(String[] args) {
-        System.out.println(length1("Ermiri osht shume i fort"));
+        System.out.println(length1("Ermiri is here"));
     }
     
     
