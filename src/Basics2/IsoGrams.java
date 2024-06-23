@@ -11,22 +11,20 @@ public class IsoGrams {
         System.out.println(isogram(str));
     }
 
-    static boolean isogram(String str){
+    static boolean isogram(String str) {
 
 
-
-
-      // return str.toLowerCase().chars().distinct().count()==str.length();
+        // return str.toLowerCase().chars().distinct().count()==str.length();
 
         Set<Character> letters = new HashSet<>();
 
         for (int i = 0; i < str.length(); i++) {
-         if(letters.contains(str.toLowerCase().charAt(i))){
-             return false;
-         }
-         letters.add(str.charAt(i));
+            if (letters.contains(str.toLowerCase().charAt(i))) {
+                return false;
+            }
+            letters.add(str.charAt(i));
         }
-return true;
+        return true;
 
     }
 }
