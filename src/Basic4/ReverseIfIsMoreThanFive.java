@@ -16,7 +16,7 @@ public class ReverseIfIsMoreThanFive {
         String str1 = "";
         for (int i = 0; i < str.length; i++) {
             if (str[i].length() >= 5) {
-                str1 += new StringBuilder(str[i]).reverse().toString();
+                str1 += new StringBuilder(str[i]).reverse();
             }else {
                 str1 += str[i] ;
             }
