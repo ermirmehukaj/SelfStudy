@@ -3,8 +3,8 @@ package Basic3;
 public class FindIndex {
     public static void main(String[] args) {
 
-        String myStr = "leetcode";
-        String str1 = "leeto";
+        String myStr = "sadbutsad";
+        String str1 = "sad";
         System.out.println(strStr(myStr, str1));
     }
 
